@@ -1,0 +1,53 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 50px;
+    gap:80px;
+}
+
+.about-title h1{
+   padding-top:50px;
+   padding-bottom:50px;
+   padding-right:28px;
+    font-size: 36px;
+font-weight: 200px;
+}
+
+
+.about-sections{
+    display: flex;
+    gap:20px;
+}
+.about-left img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+.about-right{
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   padding-top:10px;
+   padding-bottom:20px;
+   padding-left: 20px;
+    max-width: 2000px;
+    font-size: 18px;
+  font-weight: 200;
+}
+.about-para h2{
+    font-size:25px;
+    background: linear-gradient(270deg, magenta, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

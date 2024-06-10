@@ -1,0 +1,78 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.profile_photo{
+    margin-top: 10px;
+    width: 200px;
+
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 70px;
+    border-bottom-left-radius:80px ;
+    border-bottom-right-radius: 100px;
+    border: 2px solid black;
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.hero h1 span{
+    background: linear-gradient(270deg, magenta, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-links {
+
+display: flex;
+justify-content: center;
+margin-top: -30px;
+gap: 10px;
+}
+.hero-resume{
+    padding: 6px 2px;
+    border-radius:50px;
+    border: 2px solid #000;
+    cursor: pointer;
+font-size: medium;
+
+}
+.logo{
+max-width:20px;
+}
+.hero-resume:hover{
+    border-color: magenta;
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.skills_logo{
+    padding: 6px 2px;
+    border-radius:0px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px, 20px; 
+font-size: medium;
+align-items: center;
+}
+
+.skills:hover{
+  
+    transform: scale(1.15);
+    transition: 0.3s;
+
+}
+
+.skills{
+    max-width: 20px;
+    gap: 50px;
+    padding: 10px
+}

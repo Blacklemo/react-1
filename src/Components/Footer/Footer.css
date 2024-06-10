@@ -1,0 +1,30 @@
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: rgb(245, 243, 243);
+    
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-top-left p{
+    margin: 50px 80px;
+    font-size: 20px;
+max-width: 400px;
+
+}
+.footer-top-right{
+    margin: 50px 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer-top-right img{
+    
+    max-width: 40px;
+}

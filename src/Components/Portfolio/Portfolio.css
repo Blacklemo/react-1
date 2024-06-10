@@ -1,0 +1,14 @@
+.portfolio{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+
+}
+
+.portfolio_title h1{
+   
+        text-align: center;
+        font-size: 36px;
+}

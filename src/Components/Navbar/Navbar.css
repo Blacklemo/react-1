@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -20px 20px;
+    padding-right:10px;
+    text-wrap: wrap;
+    
+}
+img {
+    border:1px;
+    border-radius:1px;
+    padding: 5px;
+    width: 150px;
+    align-items: left;
+}
+.navbar_logo{
+    position: relative;
+}
+.seemana{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.theme{
+    display: flex;
+    justify-items:center;
+position:absolute;
+bottom: 0;
+right: 0;
+z-index: -1;
+padding-right:20px;
+padding-bottom:20px;
+border-top-left-radius: 360px;
+border-top-right-radius: 360px;
+border-bottom-left-radius: 360px;
+border-bottom-right-radius: 360px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+ 
+}
+.nav-single-component:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.anchor-link{
+    text-decoration: none;
+    color: black; 
+}
